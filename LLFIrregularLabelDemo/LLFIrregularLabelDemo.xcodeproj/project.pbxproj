@@ -16,6 +16,7 @@
 		0B12B11D2071D1810052AF09 /* LLFIrregularLabelDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12B11C2071D1810052AF09 /* LLFIrregularLabelDemoTests.m */; };
 		0B12B1282071D1810052AF09 /* LLFIrregularLabelDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12B1272071D1810052AF09 /* LLFIrregularLabelDemoUITests.m */; };
 		0B12B1382071D1AD0052AF09 /* IrregularLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B12B1372071D1AD0052AF09 /* IrregularLabel.m */; };
+		4A34641E16E9A50FAD5372C6 /* libPods-LLFIrregularLabelDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86E4731EE46206B93A53B7C4 /* libPods-LLFIrregularLabelDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,9 @@
 		0B12B1292071D1810052AF09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0B12B1362071D1AD0052AF09 /* IrregularLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IrregularLabel.h; sourceTree = "<group>"; };
 		0B12B1372071D1AD0052AF09 /* IrregularLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IrregularLabel.m; sourceTree = "<group>"; };
+		86E4731EE46206B93A53B7C4 /* libPods-LLFIrregularLabelDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LLFIrregularLabelDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8739704CB4B0F03F42E301D4 /* Pods-LLFIrregularLabelDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLFIrregularLabelDemo.debug.xcconfig"; path = "Target Support Files/Pods-LLFIrregularLabelDemo/Pods-LLFIrregularLabelDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		8E436CB3B09DB2FCEFFE62BD /* Pods-LLFIrregularLabelDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLFIrregularLabelDemo.release.xcconfig"; path = "Target Support Files/Pods-LLFIrregularLabelDemo/Pods-LLFIrregularLabelDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A34641E16E9A50FAD5372C6 /* libPods-LLFIrregularLabelDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +93,8 @@
 				0B12B11B2071D1810052AF09 /* LLFIrregularLabelDemoTests */,
 				0B12B1262071D1810052AF09 /* LLFIrregularLabelDemoUITests */,
 				0B12B1012071D1810052AF09 /* Products */,
+				D7A346180DE7EBBF4D4EC28E /* Pods */,
+				77200C88E856717515C5FC55 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +152,24 @@
 			path = IrregularLabel;
 			sourceTree = "<group>";
 		};
+		77200C88E856717515C5FC55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86E4731EE46206B93A53B7C4 /* libPods-LLFIrregularLabelDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7A346180DE7EBBF4D4EC28E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8739704CB4B0F03F42E301D4 /* Pods-LLFIrregularLabelDemo.debug.xcconfig */,
+				8E436CB3B09DB2FCEFFE62BD /* Pods-LLFIrregularLabelDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B12B12C2071D1810052AF09 /* Build configuration list for PBXNativeTarget "LLFIrregularLabelDemo" */;
 			buildPhases = (
+				485DFC755B9C5C8C157F69BF /* [CP] Check Pods Manifest.lock */,
 				0B12B0FC2071D1810052AF09 /* Sources */,
 				0B12B0FD2071D1810052AF09 /* Frameworks */,
 				0B12B0FE2071D1810052AF09 /* Resources */,
+				781741E309C6F03BB78AAA6C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -272,6 +299,49 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		485DFC755B9C5C8C157F69BF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LLFIrregularLabelDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		781741E309C6F03BB78AAA6C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LLFIrregularLabelDemo/Pods-LLFIrregularLabelDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LLFIrregularLabelDemo/Pods-LLFIrregularLabelDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0B12B0FC2071D1810052AF09 /* Sources */ = {
@@ -442,6 +512,7 @@
 		};
 		0B12B12D2071D1810052AF09 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8739704CB4B0F03F42E301D4 /* Pods-LLFIrregularLabelDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -456,6 +527,7 @@
 		};
 		0B12B12E2071D1810052AF09 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E436CB3B09DB2FCEFFE62BD /* Pods-LLFIrregularLabelDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
