@@ -166,7 +166,6 @@
 				8739704CB4B0F03F42E301D4 /* Pods-LLFIrregularLabelDemo.debug.xcconfig */,
 				8E436CB3B09DB2FCEFFE62BD /* Pods-LLFIrregularLabelDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -519,7 +518,7 @@
 				DEVELOPMENT_TEAM = H5RRR43NKS;
 				INFOPLIST_FILE = LLFIrregularLabelDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LinFei.LLFIrregularLabelDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = fuxingjiakao.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -534,7 +533,7 @@
 				DEVELOPMENT_TEAM = H5RRR43NKS;
 				INFOPLIST_FILE = LLFIrregularLabelDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LinFei.LLFIrregularLabelDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = fuxingjiakao.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
