@@ -550,7 +550,7 @@
 				DEVELOPMENT_TEAM = KLA6J9PDUQ;
 				INFOPLIST_FILE = LLFIrregularLabelDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LinFei.LLFIrregularLabelDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = fuxingjiakao.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLFIrregularLabelDemo.app/LLFIrregularLabelDemo";
@@ -565,7 +565,7 @@
 				DEVELOPMENT_TEAM = KLA6J9PDUQ;
 				INFOPLIST_FILE = LLFIrregularLabelDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LinFei.LLFIrregularLabelDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = fuxingjiakao.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLFIrregularLabelDemo.app/LLFIrregularLabelDemo";
@@ -579,7 +579,7 @@
 				DEVELOPMENT_TEAM = KLA6J9PDUQ;
 				INFOPLIST_FILE = LLFIrregularLabelDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LinFei.LLFIrregularLabelDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = fuxingjiakao.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = LLFIrregularLabelDemo;
@@ -593,7 +593,7 @@
 				DEVELOPMENT_TEAM = KLA6J9PDUQ;
 				INFOPLIST_FILE = LLFIrregularLabelDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = LinFei.LLFIrregularLabelDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = fuxingjiakao.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = LLFIrregularLabelDemo;
