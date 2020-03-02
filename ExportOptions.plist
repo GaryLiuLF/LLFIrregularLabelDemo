@@ -16,5 +16,10 @@
 	<false/>
 	<key>uploadSymbols</key>
 	<false/>
+	<key>provisioningProfiles</key>
+	<dict>
+		<key>fuxingjiakao.com</key>
+		<string>jiadao_appstore</string>
+	</dict>
 </dict>
 </plist>
