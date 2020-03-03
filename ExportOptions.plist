@@ -11,7 +11,7 @@
 	<key>stripSwiftSymbols</key>
 	<true/>
 	<key>teamID</key>
-	<string>H5RRR43NKS</string>
+	<string>XL372J3848</string>
 	<key>uploadBitcode</key>
 	<false/>
 	<key>uploadSymbols</key>
@@ -19,7 +19,7 @@
 	<key>provisioningProfiles</key>
 	<dict>
 		<key>fuxingjiakao.com</key>
-		<string>jiadao_appstore</string>
+		<string>mac1314_Dis</string>
 	</dict>
 </dict>
 </plist>
